@@ -1,0 +1,222 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+}
+
+/* Aplicar Montserrat para os títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600; /* Define peso da fonte para dar destaque aos títulos */
+   
+}
+
+h2{
+    text-align: center;
+    font-size: 2.0rem;
+    margin-bottom: 30px;
+}
+
+.p_section {
+    margin-bottom: 30px;
+}
+
+.h3_section{
+    margin-bottom: 30px;
+}
+
+#h3{
+    margin-top: 30px;
+}
+
+
+/* Aplicar Open Sans para os parágrafos e outros textos */
+body, p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+.nav{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+}
+
+.link_menu{
+    margin-left: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.link_menu:hover{
+    color: #0056b3;
+}
+
+.inicio{
+   
+    background-image: url(https://images.unsplash.com/photo-1474314243412-cd4a79f02c6a?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.2); /* Cor preta com 50% de opacidade */
+    width: 100%;
+    height: 60vh;
+}
+
+
+
+.div_inicio{
+    padding-top: 200px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.h1_inicio{
+ background-color: blue;
+ font-size: 2.5rem;
+ display: inline-block;
+}
+
+.p_inicio{
+    background-color: blue;   
+    display: inline-block;
+}
+
+.h2_aside{
+    margin-top: 30px;
+}
+
+.li_aside{
+    margin-top: 30px;
+    color: black;
+    font-weight: bolder;
+}
+
+.li_aside:hover{
+ color: #0056b3;
+}
+
+.container {
+    display: flex;
+   
+}
+.section {
+    flex: 2;
+    padding: 40px;
+    background-color: #f4f4f4;
+    width: 70%;
+}
+
+.img_terra{
+    padding-top: 30px;
+    display: block;
+    text-align: center;
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+    background-color: #ddd;
+    padding: 40px;
+    width: 30%;
+}
+
+footer{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.p_footer{
+    color: white;
+    padding: 10px;
+}
+
+#sobre{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 200px;
+}
+
+.section_contato {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input, textarea {
+    margin-bottom: 1rem;
+    padding: 10px;
+    font-size: 1rem;
+}
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.contact-info {
+    margin: 2rem 0;
+}
+.map {
+    width: 100%;
+    height: 300px;
+}
+
+
+@media screen and (max-width: 768px) {
+    body{
+        display: block;
+    }
+
+    .container{
+        display: block;
+       
+        
+    }
+
+    .section{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+       
+    }
+
+    aside{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #sobre{
+        margin: 20px;
+        padding: 0px;
+    }
+}
